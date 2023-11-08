@@ -1,0 +1,63 @@
+%%=============================================================================
+%% Inleiding
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}%
+\label{ch:inleiding}
+Cross-platform ontwikkelen wordt steeds populairder omdat er vanuit één codebase de applicatie op meerdere toestellen gedraaid kan worden. Er bestaan veel cross-platform frameworks en Flutter is één van de bekendste die in 2018 door Google ontwikkeld werd. 
+
+
+
+%De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te begrijpen en in te zien waarom de onderzoeksvraag de moeite waard is om te onderzoeken. In de inleiding ga je literatuurverwijzingen beperken, zodat de tekst vlot leesbaar blijft. Je kan de inleiding verder onderverdelen in secties als dit de tekst verduidelijkt. Zaken die aan bod kunnen komen in de inleiding~\autocite{Pollefliet2011}:
+
+%\begin{itemize}
+%  \item context, achtergrond
+ % \item afbakenen van het onderwerp
+  %\item verantwoording van het onderwerp, methodologie
+  %\item probleemstelling
+  %\item onderzoeksdoelstelling
+  %\item onderzoeksvraag
+  %\item \ldots
+%\end{itemize}
+
+\section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}%
+\label{sec:probleemstelling}
+The Mobility Factory (TMF) is een coöperatie die IT-oplossingen biedt aan bedrijven die elektrische autodelen diensten aanbieden. De applicaties worden door de TMF-ontwikkelaars in Flutter geïmplementeerd. Omdat de applicaties van TMF steeds groter en complexer worden, werkt de applicatie steeds minder performant. Daarom kwam de vraag om de performantie van hun applicatie te optimaliseren. 
+
+Een mogelijke reden van minder performante applicatie is door het slecht beheren van states. In Flutter zijn er tal van mogelijkheden voor het beheren van states. Afhankelijk van de complexiteit van de applicatie moet er overwogen worden welke state management benadering het best bij de applicatie past en of het de meest performante optie is.
+
+\section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}%
+\label{sec:onderzoeksvraag}
+
+De hoofdonderzoekvraag van dit onderzoek is de volgende:
+\\
+\textbf{Op welk manier kan states bijgehouden worden in Flutter en welk past het bij bij de applicatie van The Mobility Factory?}
+\\
+\\
+Daarnaast kan de hoofdonderzoekvraag verder verdeeld worden in de volgende deelonderzoeksvragen:
+\begin{itemize}
+  \item Welk benadering van state management is het performantste qua cpu-gebruik, opstartsnelheid, geheugengebruik...?
+  \item Hoeveel moeite zal het The Mobility Factory kosten om de verschillende benaderingen van state management te implementeren? Hoe complex is het om te integreren in de bestaande code?
+\end{itemize}
+
+\section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}%
+\label{sec:onderzoeksdoelstelling}
+
+Het hoofddoel van dit onderzoek is om de developers van The Mobility Factory te helpen om een beslissing te maken of het veranderen van state management benadering een invloed kan hebben op de performantie van de applicatie. Ook zal er moeten overwogen worden of complexiteit om het te integreren in de bestaande code de moeite waard is. Dit wordt gedaan door middel van een vergelijkende studie. Eerst wordt er een literatuurstudie gedaan over de benaderingen van state management en daarna worden ze met elkaar vergeleken met behulp van een proof-of-concept.
+
+\section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}%
+\label{sec:opzet-bachelorproef}
+
+% Het is gebruikelijk aan het einde van de inleiding een overzicht te
+% geven van de opbouw van de rest van de tekst. Deze sectie bevat al een aanzet
+% die je kan aanvullen/aanpassen in functie van je eigen tekst.
+
+De rest van deze bachelorproef is als volgt opgebouwd:
+
+In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
+
+In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
+
+% TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
+
+In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.

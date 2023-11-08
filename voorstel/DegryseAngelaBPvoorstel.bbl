@@ -1,0 +1,527 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{An2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=09ba9504f0dac2ee2e9ce86999d7661b}{%
+           family={An},
+           familyi={A\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{fullhash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{bibnamehash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{authorbibnamehash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{authornamehash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{authorfullhash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Find out how you stack up to new industry benchmarks for mobile page speed}
+      \field{urlday}{21}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/
+      \endverb
+      \verb{url}
+      \verb https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/
+      \endverb
+    \endentry
+    \entry{Vriest2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7fb9e4a8287a44500529f47bc1b1e45c}{%
+           family={{De Vriest}},
+           familyi={D\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Hogeschool Gent}%
+      }
+      \strng{namehash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{fullhash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{bibnamehash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{authorbibnamehash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{authornamehash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{authorfullhash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Een vergelijkende studie tussen verschillende benaderingen van State Management in Flutter}
+      \field{type}{Bachelor's Thesis}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scriptie.hogent.be/2019-2020/339_201640029_PBA-TIN_scriptie.pdf
+      \endverb
+      \verb{url}
+      \verb https://scriptie.hogent.be/2019-2020/339_201640029_PBA-TIN_scriptie.pdf
+      \endverb
+    \endentry
+    \entry{Nielsen2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Website Response Times}
+      \field{urlday}{21}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/website-response-times/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/website-response-times/
+      \endverb
+    \endentry
+    \entry{Rouse2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6ebb0634de22e70618460d3fc936297}{%
+           family={Rouse},
+           familyi={R\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{fullhash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{bibnamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorbibnamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authornamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorfullhash}{d6ebb0634de22e70618460d3fc936297}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Application performance}
+      \field{urlday}{21}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.techopedia.com/definition/30457/application-performance
+      \endverb
+      \verb{url}
+      \verb https://www.techopedia.com/definition/30457/application-performance
+      \endverb
+    \endentry
+    \entry{sabbagh2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0d82750f680d85ae6f43b20d630830b3}{%
+           family={Sabbagh},
+           familyi={S\bibinitperiod},
+           given={Amr},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{fullhash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{bibnamehash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{authorbibnamehash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{authornamehash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{authorfullhash}{0d82750f680d85ae6f43b20d630830b3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter Performance Optimization Techniques & Best Practices}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.devgenius.io/identifying-and-handling-memory-leaks-in-flutter-apps-1ad5e7d499e7
+      \endverb
+      \verb{url}
+      \verb https://blog.devgenius.io/identifying-and-handling-memory-leaks-in-flutter-apps-1ad5e7d499e7
+      \endverb
+    \endentry
+    \entry{sid2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=00612d04404e41351117b0aa7e1380b6}{%
+           family={siddhardha},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{fullhash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{bibnamehash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{authorbibnamehash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{authornamehash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{authorfullhash}{00612d04404e41351117b0aa7e1380b6}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{My Experience with Flutter State Management. Everything You Need to Know About it.}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://levelup.gitconnected.com/everything-you-need-to-know-about-flutter-state-management-from-my-experience-19f56729f3c4#:~:text=State%2C%20in%20Flutter%2C%20refers%20to,itself%20or%20its%20parent%20widget.
+      \endverb
+      \verb{url}
+      \verb https://levelup.gitconnected.com/everything-you-need-to-know-about-flutter-state-management-from-my-experience-19f56729f3c4#:~:text=State%2C%20in%20Flutter%2C%20refers%20to,itself%20or%20its%20parent%20widget.
+      \endverb
+    \endentry
+    \entry{slep2020}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc9625f27b06a25bc2279fd2b6d0bc83}{%
+           family={Slepnev},
+           familyi={S\bibinitperiod},
+           given={Dmitrii},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {South-Eastern Finland University of Applied Sciences}%
+      }
+      \strng{namehash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{fullhash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{bibnamehash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{authorbibnamehash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{authornamehash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{authorfullhash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{State Management approaches in Flutter}
+      \field{type}{Bachelor's Thesis}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theseus.fi/bitstream/handle/10024/355086/Dmitrii_Slepnev.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.theseus.fi/bitstream/handle/10024/355086/Dmitrii_Slepnev.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{An2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=09ba9504f0dac2ee2e9ce86999d7661b}{%
+           family={An},
+           familyi={A\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{fullhash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{bibnamehash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{authorbibnamehash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{authornamehash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \strng{authorfullhash}{09ba9504f0dac2ee2e9ce86999d7661b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Find out how you stack up to new industry benchmarks for mobile page speed}
+      \field{urlday}{21}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/
+      \endverb
+      \verb{url}
+      \verb https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/
+      \endverb
+    \endentry
+    \entry{Vriest2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7fb9e4a8287a44500529f47bc1b1e45c}{%
+           family={{De Vriest}},
+           familyi={D\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Hogeschool Gent}%
+      }
+      \strng{namehash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{fullhash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{bibnamehash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{authorbibnamehash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{authornamehash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \strng{authorfullhash}{7fb9e4a8287a44500529f47bc1b1e45c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Een vergelijkende studie tussen verschillende benaderingen van State Management in Flutter}
+      \field{type}{Bachelor's Thesis}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scriptie.hogent.be/2019-2020/339_201640029_PBA-TIN_scriptie.pdf
+      \endverb
+      \verb{url}
+      \verb https://scriptie.hogent.be/2019-2020/339_201640029_PBA-TIN_scriptie.pdf
+      \endverb
+    \endentry
+    \entry{Nielsen2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Website Response Times}
+      \field{urlday}{21}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/website-response-times/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/website-response-times/
+      \endverb
+    \endentry
+    \entry{Rouse2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6ebb0634de22e70618460d3fc936297}{%
+           family={Rouse},
+           familyi={R\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{fullhash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{bibnamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorbibnamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authornamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorfullhash}{d6ebb0634de22e70618460d3fc936297}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Application performance}
+      \field{urlday}{21}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.techopedia.com/definition/30457/application-performance
+      \endverb
+      \verb{url}
+      \verb https://www.techopedia.com/definition/30457/application-performance
+      \endverb
+    \endentry
+    \entry{sabbagh2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0d82750f680d85ae6f43b20d630830b3}{%
+           family={Sabbagh},
+           familyi={S\bibinitperiod},
+           given={Amr},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{fullhash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{bibnamehash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{authorbibnamehash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{authornamehash}{0d82750f680d85ae6f43b20d630830b3}
+      \strng{authorfullhash}{0d82750f680d85ae6f43b20d630830b3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter Performance Optimization Techniques & Best Practices}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.devgenius.io/identifying-and-handling-memory-leaks-in-flutter-apps-1ad5e7d499e7
+      \endverb
+      \verb{url}
+      \verb https://blog.devgenius.io/identifying-and-handling-memory-leaks-in-flutter-apps-1ad5e7d499e7
+      \endverb
+    \endentry
+    \entry{sid2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=00612d04404e41351117b0aa7e1380b6}{%
+           family={siddhardha},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{fullhash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{bibnamehash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{authorbibnamehash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{authornamehash}{00612d04404e41351117b0aa7e1380b6}
+      \strng{authorfullhash}{00612d04404e41351117b0aa7e1380b6}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{My Experience with Flutter State Management. Everything You Need to Know About it.}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://levelup.gitconnected.com/everything-you-need-to-know-about-flutter-state-management-from-my-experience-19f56729f3c4#:~:text=State%2C%20in%20Flutter%2C%20refers%20to,itself%20or%20its%20parent%20widget.
+      \endverb
+      \verb{url}
+      \verb https://levelup.gitconnected.com/everything-you-need-to-know-about-flutter-state-management-from-my-experience-19f56729f3c4#:~:text=State%2C%20in%20Flutter%2C%20refers%20to,itself%20or%20its%20parent%20widget.
+      \endverb
+    \endentry
+    \entry{slep2020}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc9625f27b06a25bc2279fd2b6d0bc83}{%
+           family={Slepnev},
+           familyi={S\bibinitperiod},
+           given={Dmitrii},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {South-Eastern Finland University of Applied Sciences}%
+      }
+      \strng{namehash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{fullhash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{bibnamehash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{authorbibnamehash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{authornamehash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \strng{authorfullhash}{dc9625f27b06a25bc2279fd2b6d0bc83}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{State Management approaches in Flutter}
+      \field{type}{Bachelor's Thesis}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theseus.fi/bitstream/handle/10024/355086/Dmitrii_Slepnev.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.theseus.fi/bitstream/handle/10024/355086/Dmitrii_Slepnev.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
