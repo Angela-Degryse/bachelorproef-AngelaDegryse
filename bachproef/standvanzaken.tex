@@ -6,14 +6,47 @@ zijn en hoe ze werken en worden ze met elkaar vergeleken.
 
 \section{{Flutter}}%
 \label{sec:Flutter}
-wat is flutter?
-
-\subsection{Flutter Architectuur}
-\label{sec:Flutter Architectuur}
-Hoe werkt flutter
-
-\textbf{Widgets}
+Flutter is een open-source framework ontwikkeld door Google coor het bouwen van multi-platform applicaties vanuit één codebase. 
+Dit betekent dus dat ontwikkelaars in een korte tijd applicaties kunnen ontwikkelen voor mobiele, web, desktop en ook voor embedded systemen.
+Bovendien wordt flutter code vertaald naar native machine code, wat zorgt voor snelle applicaties en annimaties. \footnote{\url{https://flutter.dev}}
 \\
+\\
+Flutter applicaties worden geschreven met Dart, een programmeertaal die ook eigendom is van Google. Dart ondersteunt AOT (ahead of time) 
+compilation en JIT (just in time) compilation. AOT verbetert de opstarttijd en performantie van de application en dankzij JIT compilation 
+wordt hot reload mogelijk. Dit wilt zeggen dat enkel de gewijzigd stukken code opnieuw moet gecompileerd worden in plaats van de volledige applicatie.
+Het is dus mogelijk om wijziginen in bijna real time te testen. \footnote{\url{https://docs.dart.dev}}
+
+\section{Flutter Architectuur}
+\label{sec:Flutter Architectuur}
+Voor dat er over de state management binnen flutter besproken kan worden, wordt er eerst een paar begrippen uitgelegd binnen Flutter. Ook wordt er in dit deel
+uitgelegd hoe Flutter werkt intern.
+
+\subsection[widget]{Widgets}
+\label{sec:Widgets}
+In Flutter wordt alle componenten in de app als "Widget" beschouwd. Wat een widget is is eigenlijk een Dart klasse die beschrijft hoe een stuk van de user interface eruit ziet.
+De UI van de app wordt dus met andere worden gebouwd door widgets in ouder-kind relatie te combineren. Elk widget wordt in een parent widget genest en context kan doorgegeven worden van ouder naar kind.
+Alle widgets zitten dus in een widget boom, met elk ouder widget één of meerdere kind widgets.
+\\
+\begin{figure}[h]
+    \includegraphics{graphics/widgetTree.png}
+    \caption{Voorbeeld van een widget boom}
+\end{figure}
+\\
+%TODO: add piece of code block for widget tree
+Elk widget is onderanderlijk. Applicaties werken hun ui bij als reactie op gebeurtenissen (zoals een gebruikersinteractie) door het framework te vertellen 
+dat een widet in de hiërarchie te vervangen door een andere widget. De ouder widgets worden met de nieuwe vergeleken door het framework en wordt de 
+gebruikersinterface efficiënt bijgewerkt.
+
+
+\subsection[states]{States}
+\label{sec:States}
+Elk widget kan states hebben. Flutter beschrijft een state als informatie die enerzijds synchroon kan worden gelezen wanneer de widget wordt gebouwd en anderzijds
+kan veranderen tijdens de levensduur van de widget.  \footnote{\url{https://api.flutter.dev/flutter/widgets/State-class.html}}
+
+
+\subsection[widget states]{Widget states}
+\label{sec:Widget states}
+Nu dat er een beeld is over wat states zijn binnen Flutter, kan er over de 2 meest gebruikte soorten widgets besproken worden. 
  \begin{itemize}
      \item stateless widget
      \item stateful widget
@@ -21,8 +54,11 @@ Hoe werkt flutter
 
 \section{{State management}}%
 \label{sec:State management}
-todo
+Zoals eerder vermeld wordt Flutter ontwikkeld om performant te zijn. Maar een mogelijke reden die de performantie van de applicatie kan beïnvloeden is het slecht 
+bijhouden van states binnen de applicatie.
 \\
+State management is een techniek, of meerdere, die gebruikt wordt om veranderingen in de applicatie te beheren. Het gebruik van de juiste state management kan zorgen 
+voor betere leesbaarheid van code en ook voor een performanter applicatie. 
 \subsection{{setState}}%
 \label{sec:setState}
 todo
