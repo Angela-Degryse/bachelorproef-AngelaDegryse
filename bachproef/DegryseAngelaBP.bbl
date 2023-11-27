@@ -19,6 +19,41 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{adnan2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c0279004272b887bf96dd912b1b6c663}{%
+           family={Adnan},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{fullhash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{bibnamehash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{authorbibnamehash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{authornamehash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{authorfullhash}{c0279004272b887bf96dd912b1b6c663}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter State Management: What to Choose- Provider, BLoC, or Redux?}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.linkedin.com/pulse/learn-how-flutter-render-widgets-muhammad-adnan/
+      \endverb
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/learn-how-flutter-render-widgets-muhammad-adnan/
+      \endverb
+    \endentry
     \entry{An2010}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=09ba9504f0dac2ee2e9ce86999d7661b}{%
@@ -52,6 +87,66 @@
       \endverb
       \verb{url}
       \verb https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/
+      \endverb
+    \endentry
+    \entry{Arsha2021}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b46f20dd6f2ae0c9e50d3a0ea9007fc}{%
+           family={Arshad},
+           familyi={A\bibinitperiod},
+           given={Waleed},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{fullhash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{bibnamehash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{authorbibnamehash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{authornamehash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{authorfullhash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Managing State in Flutter Pragmatically}
+      \field{year}{2021}
+    \endentry
+    \entry{bloc2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4525c3e8cf391cf2051845bc4e39c99c}{%
+           family={Bloc},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{fullhash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{bibnamehash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{authorbibnamehash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{authornamehash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{authorfullhash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Architecture}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bloclibrary.dev/#/architecture
+      \endverb
+      \verb{url}
+      \verb https://bloclibrary.dev/#/architecture
       \endverb
     \endentry
     \entry{Vriest2019}{thesis}{}
@@ -91,6 +186,143 @@
       \endverb
       \verb{url}
       \verb https://scriptie.hogent.be/2019-2020/339_201640029_PBA-TIN_scriptie.pdf
+      \endverb
+    \endentry
+    \entry{flutter2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c047b10eee763afb6164e077cf1cc268}{%
+           family={Flutter},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{fullhash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{bibnamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authorbibnamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authornamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authorfullhash}{c047b10eee763afb6164e077cf1cc268}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter architectural overview}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.flutter.dev/resources/architectural-overview
+      \endverb
+      \verb{url}
+      \verb https://docs.flutter.dev/resources/architectural-overview
+      \endverb
+    \endentry
+    \entry{Goel2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c06f26f6b6325c5afcbce8aa3a87d25}{%
+           family={Goel},
+           familyi={G\bibinitperiod},
+           given={Tanya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{fullhash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{bibnamehash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{authorbibnamehash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{authornamehash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{authorfullhash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lifecycle of Flutter App}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://mobikul.com/lifecycle-of-a-flutter-app/
+      \endverb
+      \verb{url}
+      \verb https://mobikul.com/lifecycle-of-a-flutter-app/
+      \endverb
+    \endentry
+    \entry{Jolayemi2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79256ec8b25abb82e8b9a856c76dc88a}{%
+           family={Jolayemi},
+           familyi={J\bibinitperiod},
+           given={Damilare},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{fullhash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{bibnamehash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{authorbibnamehash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{authornamehash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{authorfullhash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter Redux: Complete tutorial with examples}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.logrocket.com/flutter-redux-complete-tutorial-with-examples/
+      \endverb
+      \verb{url}
+      \verb https://blog.logrocket.com/flutter-redux-complete-tutorial-with-examples/
+      \endverb
+    \endentry
+    \entry{Makadiya2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=68c24563b1e95ecec3448c420c09bd8c}{%
+           family={Makadiya},
+           familyi={M\bibinitperiod},
+           given={Keval},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{fullhash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{bibnamehash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{authorbibnamehash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{authornamehash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{authorfullhash}{68c24563b1e95ecec3448c420c09bd8c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter State Management: What to Choose- Provider, BLoC, or Redux?}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/dhiwise/flutter-state-management-what-to-choose-provider-bloc-or-redux-214160adbae4
+      \endverb
+      \verb{url}
+      \verb https://medium.com/dhiwise/flutter-state-management-what-to-choose-provider-bloc-or-redux-214160adbae4
       \endverb
     \endentry
     \entry{Nielsen2010}{article}{}
@@ -198,6 +430,41 @@
       \verb https://blog.devgenius.io/identifying-and-handling-memory-leaks-in-flutter-apps-1ad5e7d499e7
       \endverb
     \endentry
+    \entry{Sharma2018}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b3f99704c8e20db8bf22ca59566c0e0f}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Radium},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{fullhash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{bibnamehash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{authorbibnamehash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{authornamehash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{authorfullhash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ABC of Redux}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dev.to/radiumsharma06/abc-of-redux-5461
+      \endverb
+      \verb{url}
+      \verb https://dev.to/radiumsharma06/abc-of-redux-5461
+      \endverb
+    \endentry
     \entry{sid2023}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=00612d04404e41351117b0aa7e1380b6}{%
@@ -268,9 +535,72 @@
       \verb{url}
       \verb https://www.theseus.fi/bitstream/handle/10024/355086/Dmitrii_Slepnev.pdf
       \endverb
+    \endentry
+    \entry{windmill2020}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0cbd1ef451abae3ef398a0457edc433}{%
+           family={Windmill},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Mannning Publications}%
+      }
+      \strng{namehash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{fullhash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{bibnamehash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{authorbibnamehash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{authornamehash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{authorfullhash}{a0cbd1ef451abae3ef398a0457edc433}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter in action}
+      \field{year}{2020}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{adnan2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c0279004272b887bf96dd912b1b6c663}{%
+           family={Adnan},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{fullhash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{bibnamehash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{authorbibnamehash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{authornamehash}{c0279004272b887bf96dd912b1b6c663}
+      \strng{authorfullhash}{c0279004272b887bf96dd912b1b6c663}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter State Management: What to Choose- Provider, BLoC, or Redux?}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.linkedin.com/pulse/learn-how-flutter-render-widgets-muhammad-adnan/
+      \endverb
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/learn-how-flutter-render-widgets-muhammad-adnan/
+      \endverb
+    \endentry
     \entry{An2010}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=09ba9504f0dac2ee2e9ce86999d7661b}{%
@@ -304,6 +634,66 @@
       \endverb
       \verb{url}
       \verb https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/
+      \endverb
+    \endentry
+    \entry{Arsha2021}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7b46f20dd6f2ae0c9e50d3a0ea9007fc}{%
+           family={Arshad},
+           familyi={A\bibinitperiod},
+           given={Waleed},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{fullhash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{bibnamehash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{authorbibnamehash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{authornamehash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \strng{authorfullhash}{7b46f20dd6f2ae0c9e50d3a0ea9007fc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Managing State in Flutter Pragmatically}
+      \field{year}{2021}
+    \endentry
+    \entry{bloc2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4525c3e8cf391cf2051845bc4e39c99c}{%
+           family={Bloc},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{fullhash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{bibnamehash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{authorbibnamehash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{authornamehash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \strng{authorfullhash}{4525c3e8cf391cf2051845bc4e39c99c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Architecture}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bloclibrary.dev/#/architecture
+      \endverb
+      \verb{url}
+      \verb https://bloclibrary.dev/#/architecture
       \endverb
     \endentry
     \entry{Vriest2019}{thesis}{}
@@ -343,6 +733,143 @@
       \endverb
       \verb{url}
       \verb https://scriptie.hogent.be/2019-2020/339_201640029_PBA-TIN_scriptie.pdf
+      \endverb
+    \endentry
+    \entry{flutter2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c047b10eee763afb6164e077cf1cc268}{%
+           family={Flutter},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{fullhash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{bibnamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authorbibnamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authornamehash}{c047b10eee763afb6164e077cf1cc268}
+      \strng{authorfullhash}{c047b10eee763afb6164e077cf1cc268}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter architectural overview}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.flutter.dev/resources/architectural-overview
+      \endverb
+      \verb{url}
+      \verb https://docs.flutter.dev/resources/architectural-overview
+      \endverb
+    \endentry
+    \entry{Goel2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c06f26f6b6325c5afcbce8aa3a87d25}{%
+           family={Goel},
+           familyi={G\bibinitperiod},
+           given={Tanya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{fullhash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{bibnamehash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{authorbibnamehash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{authornamehash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \strng{authorfullhash}{0c06f26f6b6325c5afcbce8aa3a87d25}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lifecycle of Flutter App}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://mobikul.com/lifecycle-of-a-flutter-app/
+      \endverb
+      \verb{url}
+      \verb https://mobikul.com/lifecycle-of-a-flutter-app/
+      \endverb
+    \endentry
+    \entry{Jolayemi2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=79256ec8b25abb82e8b9a856c76dc88a}{%
+           family={Jolayemi},
+           familyi={J\bibinitperiod},
+           given={Damilare},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{fullhash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{bibnamehash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{authorbibnamehash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{authornamehash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \strng{authorfullhash}{79256ec8b25abb82e8b9a856c76dc88a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter Redux: Complete tutorial with examples}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.logrocket.com/flutter-redux-complete-tutorial-with-examples/
+      \endverb
+      \verb{url}
+      \verb https://blog.logrocket.com/flutter-redux-complete-tutorial-with-examples/
+      \endverb
+    \endentry
+    \entry{Makadiya2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=68c24563b1e95ecec3448c420c09bd8c}{%
+           family={Makadiya},
+           familyi={M\bibinitperiod},
+           given={Keval},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{fullhash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{bibnamehash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{authorbibnamehash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{authornamehash}{68c24563b1e95ecec3448c420c09bd8c}
+      \strng{authorfullhash}{68c24563b1e95ecec3448c420c09bd8c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter State Management: What to Choose- Provider, BLoC, or Redux?}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/dhiwise/flutter-state-management-what-to-choose-provider-bloc-or-redux-214160adbae4
+      \endverb
+      \verb{url}
+      \verb https://medium.com/dhiwise/flutter-state-management-what-to-choose-provider-bloc-or-redux-214160adbae4
       \endverb
     \endentry
     \entry{Nielsen2010}{article}{}
@@ -450,6 +977,41 @@
       \verb https://blog.devgenius.io/identifying-and-handling-memory-leaks-in-flutter-apps-1ad5e7d499e7
       \endverb
     \endentry
+    \entry{Sharma2018}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b3f99704c8e20db8bf22ca59566c0e0f}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Radium},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{fullhash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{bibnamehash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{authorbibnamehash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{authornamehash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \strng{authorfullhash}{b3f99704c8e20db8bf22ca59566c0e0f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ABC of Redux}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dev.to/radiumsharma06/abc-of-redux-5461
+      \endverb
+      \verb{url}
+      \verb https://dev.to/radiumsharma06/abc-of-redux-5461
+      \endverb
+    \endentry
     \entry{sid2023}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=00612d04404e41351117b0aa7e1380b6}{%
@@ -521,7 +1083,36 @@
       \verb https://www.theseus.fi/bitstream/handle/10024/355086/Dmitrii_Slepnev.pdf
       \endverb
     \endentry
+    \entry{windmill2020}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0cbd1ef451abae3ef398a0457edc433}{%
+           family={Windmill},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Mannning Publications}%
+      }
+      \strng{namehash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{fullhash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{bibnamehash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{authorbibnamehash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{authornamehash}{a0cbd1ef451abae3ef398a0457edc433}
+      \strng{authorfullhash}{a0cbd1ef451abae3ef398a0457edc433}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flutter in action}
+      \field{year}{2020}
+    \endentry
   \enddatalist
+  \missing{:}
 \endrefsection
 \endinput
 

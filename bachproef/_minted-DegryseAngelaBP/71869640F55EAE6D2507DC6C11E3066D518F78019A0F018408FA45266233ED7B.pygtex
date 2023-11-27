@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n}{Widget}\PYG{+w}{ }\PYG{n}{build}\PYG{p}{(}\PYG{n}{BuildContext}\PYG{+w}{ }\PYG{n}{context}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{ChangeNotifierProvider}\PYG{p}{(}
+\PYG{+w}{        }\PYG{n+nl}{create:}\PYG{+w}{  }\PYG{p}{(}\PYG{n}{context}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{n}{CarModel}\PYG{p}{(),}
+\PYG{+w}{        }\PYG{n+nl}{child:}\PYG{+w}{ }\PYG{n}{childWidget}\PYG{p}{(),}
+\PYG{+w}{    }\PYG{p}{);}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

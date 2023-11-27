@@ -1,0 +1,26 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{MyApp}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{StatelessWidget}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{store}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Store}\PYG{p}{(}\PYG{n}{reducer}\PYG{p}{,}
+\PYG{+w}{        }\PYG{n+nl}{initialState:}\PYG{+w}{ }\PYG{n}{AppState}\PYG{p}{.}\PYG{n}{initialState}\PYG{p}{(),}
+\PYG{+w}{        }\PYG{p}{);}
+
+\PYG{+w}{    }\PYG{n+nd}{@override}
+\PYG{+w}{    }\PYG{n}{Widget}\PYG{+w}{ }\PYG{n}{build}\PYG{p}{(}\PYG{n}{BuildContext}\PYG{+w}{ }\PYG{n}{context}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{StoreProvider}\PYG{p}{(}
+\PYG{+w}{        }\PYG{n+nl}{store:}\PYG{+w}{ }\PYG{n}{store}\PYG{p}{,}
+\PYG{+w}{        }\PYG{n+nl}{child:}\PYG{+w}{ }\PYG{n}{MaterialApp}\PYG{p}{(}
+\PYG{+w}{          }\PYG{n+nl}{title:}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}Flutter Redux Demo\PYGZsq{}}\PYG{p}{,}
+\PYG{+w}{          }\PYG{n+nl}{theme:}\PYG{+w}{ }\PYG{n}{ThemeData}\PYG{p}{(}
+\PYG{+w}{            }\PYG{n+nl}{primarySwatch:}\PYG{+w}{ }\PYG{n}{Colors}\PYG{p}{.}\PYG{n}{blue}\PYG{p}{,}
+\PYG{+w}{          }\PYG{p}{),}
+\PYG{+w}{          }\PYG{n+nl}{home:}\PYG{+w}{ }\PYG{n}{StoreConnector}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Model}\PYG{o}{\PYGZgt{}}\PYG{p}{(}
+\PYG{+w}{            }\PYG{n+nl}{distinct:}\PYG{+w}{ }\PYG{k+kc}{true}
+\PYG{+w}{            }\PYG{n+nl}{converter:}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{store}\PYG{p}{)}\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{n}{store}\PYG{p}{.}\PYG{n}{state}\PYG{p}{.}\PYG{n}{toString}\PYG{p}{(),}
+\PYG{+w}{            }\PYG{n+nl}{builder:}\PYG{+w}{ }\PYG{p}{(}\PYG{+w}{ }\PYG{n}{context}\PYG{p}{,}\PYG{+w}{  }\PYG{n}{model}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{                }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{Text}\PYG{p}{(}\PYG{n}{model}\PYG{p}{.}\PYG{n}{value}\PYG{p}{)}
+\PYG{+w}{       }\PYG{p}{\PYGZcb{},}
+\PYG{+w}{        }\PYG{p}{),}
+\PYG{+w}{      }\PYG{p}{));}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

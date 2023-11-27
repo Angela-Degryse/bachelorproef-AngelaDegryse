@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.5)  12 NOV 2023 23:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.5)  27 NOV 2023 02:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2046,20 +2046,6 @@ gryseAngelaBP.aex <nul: /p x=^%~$PATH:i>> DegryseAngelaBP.aex)...executed.
 runsystem(del DegryseAngelaBP.aex)...executed.
 
 
-
-c:/Users/Angela/Documents/bachelorproef-AngelaDegryse/bachproef/DegryseAngelaBP
-.tex:80: Package minted Error: You must have `pygmentize' installed to use this
- package.
-
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 \begin{document}
-                     
-Refer to the installation instructions in the minted documentation for more inf
-ormation.
-
 (DegryseAngelaBP.aux)
 \openout1 = `DegryseAngelaBP.aux'.
 
@@ -2109,7 +2095,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DegryseAngelaBP.bbl' found.
- (DegryseAngelaBP.bbl)
+ (DegryseAngelaBP.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                :
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 80.
 Package biblatex Info: Reference segment=0 on input line 80.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2266,11 +2260,28 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 98.
 
 [5
 
-] (DegryseAngelaBP.lof)
+] [6] (DegryseAngelaBP.lof
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraMathRegular' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 10.95116pt on input line 4.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 7.88484pt on input line 4.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 6.35167pt on input line 4.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 4.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 7.88315pt on input line 4.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 6.35031pt on input line 4.
+)
 \tf@lof=\write9
 \openout9 = `DegryseAngelaBP.lof'.
 
- [6
+ [7
 
 ] (inleiding.tex
 Hoofdstuk 1.
@@ -2288,11 +2299,7 @@ rmantste qua cpu-gebruik,
 [1
 
 
-]
-
-LaTeX Warning: Reference `ch:conclusie' on page 2 undefined on input line 63.
-
-) (standvanzaken.tex [2]
+]) (standvanzaken.tex [2]
 Hoofdstuk 2.
 
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
@@ -2338,10 +2345,6 @@ cp;mapping=tex-text;"
 
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraMathRegular' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
 (Font)              scaled to size 9.00096pt on input line 11.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
@@ -2359,12 +2362,6 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 fontspec)
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-Overfull \hbox (0.28535pt too wide) in paragraph at lines 9--18
-\TU/Montserrat(1)/m/n/10.95 kelaars in een korte tijd applicaties kunnen ontwik
-kelen voor mobiele, web, desktop
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 9--18
 
  []
@@ -2374,48 +2371,155 @@ File: graphics/widgetTree.png Graphic file (type bmp)
 [3
 
 ]
+File: graphics/trees.png Graphic file (type bmp)
+<graphics/trees.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec) [4]
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+fontspec) [5]
+File: graphics/widgetLifecycle.png Graphic file (type bmp)
+<graphics/widgetLifecycle.png>
+\openout5 = `DegryseAngelaBP.pyg'.
+
+ (_minted-DegryseAngelaBP/solarized-light.pygstyle)
+(_minted-DegryseAngelaBP/F243D7455A7C34A3AC64783C2993EFE9518F78019A0F018408FA45
+266233ED7B.pygtex
+Underfull \hbox (badness 10000) in paragraph at lines 114--1
+
+ []
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraCode' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[6])
+\openout5 = `DegryseAngelaBP.pyg'.
+
+
+(_minted-DegryseAngelaBP/66259623219D25CD0754B2C72C3529D3518F78019A0F018408FA45
+266233ED7B.pygtex
+Overfull \hbox (54.27322pt too wide) in paragraph at lines 163--1
+\TU/Montserrat(1)/m/n/10.95 Deze methode zoekt in de boomstructuur en vindt de 
+dichtstbijzijnde ouder-inheritedwidget
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--1
+
+ []
+
+[7])
+\openout5 = `DegryseAngelaBP.pyg'.
+
+
+(_minted-DegryseAngelaBP/50CAF80E29D74BD71425977A214DABD3518F78019A0F018408FA45
+266233ED7B.pygtex [8])
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+(C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+\openout5 = `DegryseAngelaBP.pyg'.
 
+
+(_minted-DegryseAngelaBP/360B69FFB4735F04DFCF94BD23F80DBB518F78019A0F018408FA45
+266233ED7B.pygtex
+Overfull \hbox (2.70825pt too wide) in paragraph at lines 223--1
+\TU/Montserrat(1)/m/n/10.95 ChangeNotifierProvider, ListenableProvider, ProxyPr
+ovider, FutureProvider, Stream-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+Overfull \hbox (3.42874pt too wide) in paragraph at lines 223--1
+\TU/Montserrat(1)/m/n/10.95 In de code hieronder wordt een CarModel klasse uitg
+ebreid(extended) met de \TU/Montserrat(2)/b/n/10.95 Chan-
+ []
 
+[9])
+\openout5 = `DegryseAngelaBP.pyg'.
+
+
+(_minted-DegryseAngelaBP/71869640F55EAE6D2507DC6C11E3066D518F78019A0F018408FA45
+266233ED7B.pygtex)
+\openout5 = `DegryseAngelaBP.pyg'.
+
+
+(_minted-DegryseAngelaBP/C852BFA6C2A795CEDAECE6171C9E7771518F78019A0F018408FA45
+266233ED7B.pygtex)
+Overfull \hbox (30.24893pt too wide) in paragraph at lines 265--269
+\TU/Montserrat(1)/m/n/10.95 Een alternatief voor het Consumer Widget is door co
+ntext.read<T>() of context.watch<T>()
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
-
+Overfull \hbox (13.72536pt too wide) in paragraph at lines 265--269
+\TU/Montserrat(1)/m/n/10.95 Op hetzelfde manier kan er ook gebruikt gemaakt wor
+den van Provider.of<T>(context)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 265--269
 
  []
 
+[10]
+(C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+(C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
+fontspec)
+\openout5 = `DegryseAngelaBP.pyg'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
+(_minted-DegryseAngelaBP/CADD805C48C37AC377EB718F6F9EFAA1518F78019A0F018408FA45
+266233ED7B.pygtex)
+\openout5 = `DegryseAngelaBP.pyg'.
+
+
+(_minted-DegryseAngelaBP/B86308054FB97D533E5B0C253CFD1F76518F78019A0F018408FA45
+266233ED7B.pygtex)
+\openout5 = `DegryseAngelaBP.pyg'.
+
+
+(_minted-DegryseAngelaBP/6F83A438EEE2DB4F8F2331202F6289BE518F78019A0F018408FA45
+266233ED7B.pygtex [11])
+Overfull \hbox (1.86652pt too wide) in paragraph at lines 333--334
+[]\TU/Montserrat(1)/m/n/10.95 StreamProvider is handig wanneer er geluisterd mo
+et worden naar een stream
  []
 
-) (methodologie.tex [5] [6]
+[12]
+File: graphics/reduxcycle.png Graphic file (type bmp)
+<graphics/reduxcycle.png>
+ [13]
+\openout5 = `DegryseAngelaBP.pyg'.
+
+
+(_minted-DegryseAngelaBP/13D34D40E45C8AF60B51F338959488FE518F78019A0F018408FA45
+266233ED7B.pygtex) [14]
+File: graphics/blocArchitectuur.png Graphic file (type bmp)
+<graphics/blocArchitectuur.png>
+
+
+LaTeX Warning: Citation ':' on page 15 undefined on input line 434.
+
+[15]) (methodologie.tex [16]
 Hoofdstuk 3.
-[7
+[17
 
-]) (conclusie.tex [8]
+]) (conclusie.tex [18]
 Hoofdstuk 4.
-[9
+[19
 
-]) [10]
+]) [20]
 B\ij lage A.
 (../voorstel/voorstel-inhoud.tex
 Overfull \hbox (12.4503pt too wide) in paragraph at lines 6--7
@@ -2429,7 +2533,7 @@ Overfull \hbox (7.43272pt too wide) in paragraph at lines 12--13
 rmantste qua cpu-gebruik,
  []
 
-[11
+[21
 
 ]
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
@@ -2445,37 +2549,19 @@ Overfull \hbox (8.33067pt too wide) in paragraph at lines 22--23
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec) [12]
+fontspec) [22]
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
-
-LaTeX Warning: Hyper reference `sec:states' on page 13 undefined on input line 
-45.
-
-
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec) [13]
+fontspec) [23]
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
 fontspec)
 (C:\Users\Angela\AppData\Local\Programs\MiKTeX\tex/latex/montserrat\Montserrat.
-fontspec) [14]) [15]
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 175.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 7.88484pt on input line 175.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.35167pt on input line 175.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 175.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 7.88315pt on input line 175.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 6.35031pt on input line 175.
-
+fontspec) [24]) [25]
 c:/Users/Angela/Documents/bachelorproef-AngelaDegryse/bachproef/DegryseAngelaBP
 .tex:175: Misplaced alignment tab character &.
 <argument> ...erformance Optimization Techniques &
@@ -2489,40 +2575,25 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[16
+[26
 
 
-] (DegryseAngelaBP.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `DegryseAngelaBP.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `DegryseAngelaBP.out':
-(rerunfilecheck)             Before: 29A9481FD8821DE943D6E667B7FD6170;2416
-(rerunfilecheck)             After:  AA834D391FF07BA0644F94E5F030F662;4505.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                DegryseAngelaBP
-(biblatex)                and rerun LaTeX afterwards.
+] [27] (DegryseAngelaBP.aux)
+Package rerunfilecheck Info: File `DegryseAngelaBP.out' has not changed.
+(rerunfilecheck)             Checksum: B0908200AC2FAA984A80FB8B9DEA9054;4632.
+runsystem(del DegryseAngelaBP.pyg)...executed.
 
 Package logreq Info: Writing requests to 'DegryseAngelaBP.run.xml'.
 \openout1 = `DegryseAngelaBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48492 strings out of 411476
- 971052 string characters out of 5818178
- 2082405 words of memory out of 5000000
- 67916 multiletter control sequences out of 15000+600000
- 516776 words of font info for 110 fonts, out of 8000000 for 9000
+ 48795 strings out of 411476
+ 981494 string characters out of 5818178
+ 2092763 words of memory out of 5000000
+ 68168 multiletter control sequences out of 15000+600000
+ 516784 words of font info for 111 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 110i,11n,134p,1204b,5599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,11n,134p,1204b,7222s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on DegryseAngelaBP.pdf (22 pages).
+Output written on DegryseAngelaBP.pdf (34 pages).

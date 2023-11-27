@@ -1,24 +1,24 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
-[1] Config.pm:309> INFO - Logfile is '.\DegryseAngelaBP.blg'
-[146] biber-MSWIN64:340> INFO - === 
-[196] Biber.pm:418> INFO - Reading '.\DegryseAngelaBP.bcf'
-[374] Biber.pm:978> INFO - Found 7 citekeys in bib section 0
-[399] Biber.pm:4401> INFO - Processing section 0
-[417] Biber.pm:4592> INFO - Looking for bibtex file 'bachproef.bib' for section 0
-[487] bibtex.pm:1713> INFO - LaTeX decoding ...
-[498] bibtex.pm:1518> INFO - Found BibTeX data source 'bachproef.bib'
-[504] Biber.pm:4592> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
-[577] bibtex.pm:1713> INFO - LaTeX decoding ...
-[596] bibtex.pm:1518> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
-[680] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[680] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[680] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[680] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
-[708] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[709] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[710] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[710] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
-[739] bbl.pm:654> INFO - Writing '.\DegryseAngelaBP.bbl' with encoding 'UTF-8'
-[753] bbl.pm:757> INFO - Output to .\DegryseAngelaBP.bbl
-[754] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\Angela\AppData\Local\Temp\biber_tmp_mASG\8cb062d3173a6ea4029688c830d4ed28_8488.utf8, line 28, warning: 465 characters of junk seen at toplevel
-[754] Biber.pm:132> INFO - WARNINGS: 1
+[1] Config.pm:309> INFO - Logfile is 'DegryseAngelaBP.blg'
+[225] biber-MSWIN64:340> INFO - === 
+[266] Biber.pm:418> INFO - Reading 'DegryseAngelaBP.bcf'
+[478] Biber.pm:978> INFO - Found 17 citekeys in bib section 0
+[530] Biber.pm:4401> INFO - Processing section 0
+[559] Biber.pm:4592> INFO - Looking for bibtex file 'bachproef.bib' for section 0
+[638] bibtex.pm:1713> INFO - LaTeX decoding ...
+[665] bibtex.pm:1518> INFO - Found BibTeX data source 'bachproef.bib'
+[759] Biber.pm:4592> INFO - Looking for bibtex file '../voorstel/voorstel.bib' for section 0
+[842] bibtex.pm:1713> INFO - LaTeX decoding ...
+[871] bibtex.pm:1518> INFO - Found BibTeX data source '../voorstel/voorstel.bib'
+[956] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[957] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[958] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[958] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
+[1035] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1036] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1037] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[1037] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
+[1077] bbl.pm:654> INFO - Writing 'DegryseAngelaBP.bbl' with encoding 'UTF-8'
+[1098] bbl.pm:757> INFO - Output to DegryseAngelaBP.bbl
+[1099] Biber.pm:130> WARN - I didn't find a database entry for ':' (section 0)
+[1099] Biber.pm:132> INFO - WARNINGS: 1

@@ -1,0 +1,29 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{CheckBoxWidget}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{StatefulWidget}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{isChecked}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{CheckBoxWidget}\PYG{p}{(\PYGZob{}}\PYG{k}{super}\PYG{p}{.}\PYG{n}{key}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k}{this}\PYG{p}{.}\PYG{n}{isChecked}\PYG{p}{\PYGZcb{});}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{State}\PYG{o}{\PYGZlt{}}\PYG{n}{CheckBoxWidget}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{createState}\PYG{p}{()}\PYG{+w}{ }\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{n}{CheckBoxWidgetState}\PYG{p}{();}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{CheckBoxWidgetState}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{State}\PYG{o}{\PYGZlt{}}\PYG{n}{CheckBoxWidget}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kd}{late}\PYG{+w}{ }\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{isChecked}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{initState}\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{isChecked}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{widget}\PYG{p}{.}\PYG{n}{isChecked}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{initState}\PYG{p}{();}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Widget}\PYG{+w}{ }\PYG{n}{build}\PYG{p}{(}\PYG{n}{BuildContext}\PYG{+w}{ }\PYG{n}{context}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{Checkbox}\PYG{p}{(}
+\PYG{+w}{        }\PYG{n+nl}{value:}\PYG{+w}{ }\PYG{n}{isChecked}\PYG{p}{,}
+\PYG{+w}{        }\PYG{n+nl}{onChanged:}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{value}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{          }\PYG{n}{setState}\PYG{p}{(()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{            }\PYG{n}{isChecked}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{value}\PYG{o}{!}\PYG{p}{;}
+\PYG{+w}{          }\PYG{p}{\PYGZcb{});}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{});}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

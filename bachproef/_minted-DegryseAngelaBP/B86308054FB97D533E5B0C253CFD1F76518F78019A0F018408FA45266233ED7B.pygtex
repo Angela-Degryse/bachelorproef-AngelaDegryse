@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{CarProvider}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Provider}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{String}\PYG{o}{\PYGZgt{}}\PYG{p}{((}\PYG{n}{\PYGZus{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}This is a car\PYGZsq{}}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{CarWidget}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{ConsumerWidget}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n+nd}{@override}
+\PYG{+w}{        }\PYG{n}{Widget}\PYG{+w}{ }\PYG{n}{build}\PYG{p}{(}\PYG{n}{BuildContext}\PYG{+w}{ }\PYG{n}{context}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{WidgetRef}\PYG{+w}{ }\PYG{n}{ref}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{          }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{car}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{ref}\PYG{p}{.}\PYG{n}{watch}\PYG{p}{(}\PYG{n}{CarProvider}\PYG{p}{);}
+\PYG{+w}{          }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{Text}\PYG{p}{(}\PYG{n}{car}\PYG{p}{);}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

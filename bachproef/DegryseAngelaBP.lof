@@ -1,7 +1,11 @@
 \babel@toc {dutch}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Voorbeeld van een widget boom\relax }}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Voorbeeld van een widgetboom\relax }}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces De 3 widget rendering bomen van Flutter \blx@tocontentsinit {0}\autocite {flutter2023} \relax }}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Lifecycle van een stateless and stateful widget \blx@tocontentsinit {0}\autocite {Goel2023}\relax }}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Redux lifecycle \blx@tocontentsinit {0}\autocite {Sharma2018}\relax }}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces BLoC Architectuur \blx@tocontentsinit {0}\autocite {bloc2023}\relax }}{15}{figure.caption.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

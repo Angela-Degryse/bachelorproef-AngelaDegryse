@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{InheritColor}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{InheritedWidget}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{InheritColor}\PYG{p}{(\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{key}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k}{this}\PYG{p}{.}\PYG{n}{color}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k}{this}\PYG{p}{.}\PYG{n}{changeColor}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k}{super}\PYG{p}{.}\PYG{n}{child}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{});}
+
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{Color}\PYG{+w}{ }\PYG{n}{color}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{k+kt}{Function}\PYG{p}{(}\PYG{n}{Color}\PYG{+w}{ }\PYG{n}{color}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{changeColor}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{k+kd}{static}\PYG{+w}{ }\PYG{n}{InheritColor}\PYG{+w}{ }\PYG{n}{of}\PYG{p}{(}\PYG{n}{BuildContext}\PYG{+w}{ }\PYG{n}{context}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{InheritColor}\PYG{o}{?}\PYG{+w}{ }\PYG{n}{result}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{        }\PYG{n}{context}\PYG{p}{.}\PYG{n}{dependOnInheritedWidgetOfExactType}\PYG{o}{\PYGZlt{}}\PYG{n}{InheritColor}\PYG{o}{\PYGZgt{}}\PYG{p}{();}
+\PYG{+w}{    }\PYG{k}{assert}\PYG{p}{(}\PYG{n}{result}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}No InheritColor found in context\PYGZsq{}}\PYG{p}{);}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{result}\PYG{o}{!}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{updateShouldNotify}\PYG{p}{(}\PYG{n}{InheritColor}\PYG{+w}{ }\PYG{n}{oldWidget}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{n}{color}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{n}{oldWidget}\PYG{p}{.}\PYG{n}{color}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

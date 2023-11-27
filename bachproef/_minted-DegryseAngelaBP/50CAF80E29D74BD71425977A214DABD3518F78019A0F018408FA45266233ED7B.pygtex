@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{Color}\PYG{+w}{ }\PYG{n}{color}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Colors}\PYG{p}{.}\PYG{n}{pink}\PYG{p}{;}
+\PYG{n}{Widget}\PYG{+w}{ }\PYG{n}{build}\PYG{p}{(}\PYG{n}{BuildContext}\PYG{+w}{ }\PYG{n}{context}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{InheritColor}\PYG{p}{(}
+\PYG{+w}{      }\PYG{n+nl}{color:}\PYG{+w}{ }\PYG{n}{color}\PYG{p}{,}
+\PYG{+w}{      }\PYG{n+nl}{changeColor:}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{Color}\PYG{+w}{ }\PYG{n}{newColor}\PYG{p}{)\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{setState}\PYG{p}{(()}\PYG{o}{=\PYGZgt{}}\PYG{n}{color}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{newColor}\PYG{p}{);}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{},}
+\PYG{+w}{      }\PYG{n+nl}{child:}\PYG{+w}{ }\PYG{n}{OtherChildWidget}\PYG{p}{(),}
+\PYG{+w}{    }\PYG{p}{);}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

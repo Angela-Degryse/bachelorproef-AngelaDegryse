@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{CarModel}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{ChangeNotifier}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{Color}\PYG{+w}{ }\PYG{n}{\PYGZus{}color}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{Colors}\PYG{p}{.}\PYG{n}{black}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{n}{Color}\PYG{+w}{ }\PYG{k+kd}{get}\PYG{+w}{ }\PYG{n}{color}\PYG{+w}{ }\PYG{o}{=\PYGZgt{}}\PYG{+w}{ }\PYG{n}{\PYGZus{}color}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n}{changeColor}\PYG{p}{(}\PYG{n}{Color}\PYG{+w}{ }\PYG{n}{newColor}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{             }\PYG{n}{\PYGZus{}count}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{newColor}\PYG{p}{;}
+\PYG{+w}{            }\PYG{n}{notifyListeners}\PYG{p}{();}
+\PYG{+w}{        }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
